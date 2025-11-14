@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Secciones principales */
+header, nav, main, footer {
+    padding: 1rem;
+}
+
+/* Navegación */
+nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #0055aa;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+    color: #003366;
+}
+
+/* Formulario */
+form label {
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #0055aa;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #003f7d;
+}
